@@ -1,0 +1,29 @@
+snopt*
+
+*.vtk
+*.DS_store
+
+af*
+*.jpeg
+.ignore
+
+plots*
+
+# Modified airfoils for CCBlade (Just keep the original, the script generates the rest)
+*_[0-9].dat
+*_[0-9][0-9].dat
+
+
+#Latex aux and generated files
+*.aux
+*.blg
+*.ilg
+*.log
+*.nlo
+*.nls
+*.out
+*.pdf
+*.gz
+*.bbl
+*.fdb_latexmk
+*.fls

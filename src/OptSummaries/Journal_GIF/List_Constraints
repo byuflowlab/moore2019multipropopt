@@ -1,0 +1,71 @@
+#LIFT
+Lift_accel
+Lift_cruise
+Lift_climb
+
+#DRAG
+Drag_cruise
+Drag_accel
+Drag_climb
+
+#STALL
+cl_max_climb
+cl_max_cruise
+cl_max_accel
+
+#PROP BUCKLING
+p_buckling_cruise
+p_buckling_climb
+p_buckling_accel
+
+#PROP COMPOSITE FAILURE
+p_stress_accel
+p_stress_climb
+p_stress_cruise
+
+#PROP COMPRESSIBILITY
+machtip_cruise
+machtip_climb
+machtip_accel
+
+
+cruisespeed
+
+range
+
+#NOISE
+noise_accel
+noise_climb
+
+totalmass
+
+#BATTERY
+capacity_accel
+capacity_climb
+
+#OVERLAP
+p_separation
+
+
+
+# DON'T SHOW Convergence aids
+
+#Prop solution aids
+p_tipmin_alphas_cruise
+p_max_alphas_accel
+p_tipmin_alphas_climb
+p_min_alphas_accel
+p_min_alphas_cruise
+p_max_alphas_climb
+p_max_alphas_cruise
+p_tipmin_alphas_accel
+p_min_alphas_climb
+p_chordlamthick
+
+# Transition dynamics aids
+radiussize
+flightpathangle
+positiveradius
+
+# Acceleration aid
+positive_dist_accel

@@ -1,0 +1,45 @@
+exit
+exit
+ssh moore54@ssh.fsl.byu.edu
+
+cd moore2018multipropopt/src/Optimization_Cases_Noise/
+salloc --time=3:00:00 --nodes=1 --ntasks=1 --mem=2G --qos=standby
+module load julia
+module load python
+julia
+include("p
+
+
+
+clear
+cd moore2018multipropopt/src/Optimization_Cases_Noise/
+salloc --time=10:00:00 --nodes=1 --ntasks=1 --mem=4G
+module load julia
+module load python
+julia
+include("p
+
+
+module purge
+module load compiler_gnu/4.9.2
+module load julia/0.6.0
+
+
+cd moore2018multipropopt/src/Optimization_Cases_Noise/
+salloc --time=1:00:00 --nodes=3 --ntasks=66 --mem=2G
+module load julia
+module load python
+julia
+include("p
+
+cd moore2018multipropopt/src/Optimization_Cases_Noise/
+salloc --time=1:00:00 --nodes=3 --ntasks=66 --mem-per-cpu=2G
+module load julia
+module load python
+export PBS_NODEFILE=`/fslapps/fslutils/generate_pbs_nodefile`
+julia --machinefile $PBS_NODEFILE
+
+
+salloc --time=0:20:00 --nodes=1 --ntasks=1 --mem=4G --qos=standby
+
+a
